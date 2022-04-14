@@ -13,6 +13,69 @@
     <title>Hello, world!</title>
   </head>
   <body class="doodle">
-    <h1>Hello, world!</h1>
+    <fieldset>
+      <legend>Some inputs</legend>
+
+      <p>
+      <label for="example-input-text">An input</label><br/>
+        <input id="example-input-text" type="text" placeholder="Enter some text here">
+      </p>
+
+      <p>
+        <label for="example-input-password">A password field</label></br>
+        <input id="example-input-password" type="password" placeholder="Password">
+      </p>
+
+      <p>
+        <label for="example-textarea">A textarea</label><br/>
+        <textarea id="example-textarea" rows="3"></textarea>
+      </p>
+
+      <p>
+        <label for="example-select1">A select input</label>
+        <select id="example-select1">
+          <option>one</option>
+          <option>two</option>
+          <option>three</option>
+          <option>seventeen</option>
+        </select>
+      </p>
+   
+      <p>
+        <div>
+          <label>
+            <input id="optionsR-radios1" type="radio" name="options-radios" value="option1" checked="">
+            Option one.
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <input id="options-radios2" type="radio" name="options-radios" value="option2">
+            Option two.
+          </label>
+        </div>
+      </p>
+
+      <p>
+        <div>
+          <label>
+            <input type="checkbox" id="ch1">
+            Checkbox one.
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <input type="checkbox" id="ch2">
+            Checkbox two.
+          </label>
+        </div>
+      </p>
+
+      <p>
+        <button type="button" name="button">A button</button>
+      </p>
+    </fieldset>
   </body>
 </html>
